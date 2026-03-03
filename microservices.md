@@ -1,34 +1,67 @@
-# Xây dựng ứng dụng tư vấn pháp luật sử dụng AI
+# MICROSERVICES 
+Tất cả các microservices: Ghi lại thông tin request (request logs)
+Tất cả các microservices:   trả suscess , meee, data, toltal,.....
 
-Yêu cầu chức năng dự kiến:
 
-<!-- - [ ] Ghi lại thông tin request (request logs) -->
+
+ 
+
+
+auth-service 
+Người dùng đăng nhập bằng google
+Gửi email để   xác nhận email 
+Người dùng      xác nhận email 
+Xác thực 2FA bằng TOTP
+Chuyển 1 user thành admin (ADMIN)
+
+
+ 
+
+
+
+
+
+<!-- user-profile -->
+<!-- - [ ] Thông tin tài khoản (profile) -->
 <!-- - [ ] Tải file -->
-  <!-- - [ ] Tải ảnh avatar -->
-  <!-- - [ ] Tải tài liệu văn bản (NÂNG CAO) ? -->
-<!-- - [ ] Cài đặt hệ thống (admin-settings) -->
-  <!-- - [ ] Bắt buộc Xác thực 2FA -->
-  <!-- - [ ] Bắt buộc Xác thực email -->
+<!-- - [ ] Tải ảnh avatar -->
+<!-- trạng thái như fb messdsenger-->
 
-- [ ] Cài đặt người dùng (user-settings)
-  <!-- - [ ] Bật tắt dark mode -->
-  <!-- - [ ] Bật tắt Xác thực 2FA -->
-  <!-- - [ ] Cấu hình Model (Cấp 1, 2, 3) về độ chính xác/tốc độ -->
-  <!-- - [ ] Cài đặt Bối cảnh cá nhân (Tự nhập thêm ai prompt) -->
 
-- [ ] Xác thực (auth)
-  <!-- - [ ] Người dùng đăng nhập bằng google -->
-    <!-- - [ ] Xác nhận email -->
-  <!-- - [ ] Xác thực 2FA bằng TOTP -->
-  - [ ] Thông tin tài khoản (profile)
-      <!-- - [ ] Đếm thông tin số lượng sử dụng để tạo thống kê như github -->
-    <!-- - [ ] Chuyển 1 user thành admin (ADMIN) -->
 
+<!-- - [ ] Đếm thông tin số lượng sử dụng để tạo thống kê như github -->
+
+ 
+
+
+
+ 
+
+user-settings
+<!-- - [ ] Cài đặt người dùng (user-settings) -->
+<!-- - [ ] Bật tắt dark mode --> 
+<!-- - [ ] Cấu hình Modemặc định l (Cấp 1, 2, 3) về độ chính xác/tốc độ -->
+<!-- - [ ] Cài đặt Bối cảnh cá nhân (Tự nhập thêm ai prompt) -->
+<!-- Tự động phát âm thanh khi trả lời -->
+
+
+  
+
+
+
+
+token
 - [ ] Thanh toán (payment) (dùng VNPAY sandbox)
   - [ ] Người dùng mua số lượng câu hỏi
   - [ ] Hiển thị các mức giá (mua nhiều được giảm %)
   - [ ] Lịch sử giao dịch
   - [ ] Cửa sổ bật lên thông báo khi hết lượt dùng
+
+
+- [ ] Chức năng nâng cao: Lựa chọn nhân vật để trò chuyện (personas) ?
+
+<!-- - [ ] Chia sẻ link public cuộc trò chuyện (CRUD) -->
+
 
 - [ ] Cuộc trò chuyện (chat)
   - [ ] Giao diện có phần input nhập văn bản
@@ -39,13 +72,12 @@ Yêu cầu chức năng dự kiến:
   - [ ] Trích xuất các nguồn tài liệu liên quan
 
   <!-- - [ ] Lịch sử cuộc trò chuyện -->
-  - [ ] Chia sẻ link public cuộc trò chuyện (CRUD)
     <!-- - [ ] Đánh giá mức độ hài lòng cuộc trò chuyện -->
     <!-- - [ ] Chức năng nâng cao: Tải lên file văn bản ? -->
-  - [ ] Chức năng nâng cao: Lựa chọn nhân vật để trò chuyện (personas) ?
+  <!-- - [ ] Tải tài liệu văn bản (NÂNG CAO) ? -->
 
 - [ ] Ghi chú (note)
-  <!-- - [ ] Người dùng có thể đánh dấu lưu lại cuộc trò chuyện (bookmark) -->
+  <!-- - [ ] Người dùng có thể đánh dấu lưu lại cuộc trò chuyện (bookmark, thả tim yếu thích) -->
   <!-- - [ ] Cho phép người dùng phân loại theo chủ đề (labels) -->
 - [ ] Thông báo (notification)
   <!-- - [ ] Gửi email chào mừng đăng ký người dùng mới -->

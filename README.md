@@ -6,12 +6,7 @@ Tất cả các microservices: có request_id, code, success, message, data, tot
 
 # Tổng quan các microservices
 
-```mermaid
-flowchart TD
-    Client[Client] --> Gateway[API Gateway]
-
-    Gateway --> Auth[Auth Service]
-```
+[text](<flowchart TD.mmd>)
 
 # Chi tiết các microservices
 
@@ -22,5 +17,12 @@ flowchart TD
 - Người dùng xác nhận email
 - Xác thực 2FA bằng TOTP
 - Chuyển 1 user thành admin (cần Role ADMIN)
-- Thông tin cá nhân
+- Xem thông tin cá nhân
 - Cập nhật ảnh avatar
+
+## Settings Service
+
+- Bật tắt dark mode
+- Cấu hình Model mặc định (Cấp 1, 2, 3) về độ chính xác/tốc độ
+- Cài đặt "Bối cảnh cá nhân" (Tự nhập thêm ai prompt)
+- Tự động phát âm thanh khi trả lời

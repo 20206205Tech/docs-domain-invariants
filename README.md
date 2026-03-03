@@ -4,10 +4,6 @@ Tất cả các microservices: Ghi lại thông tin request (request logs)
 
 Tất cả các microservices: có request_id, code, success, message, data, total
 
-# Tổng quan các microservices
-
-[text](<flowchart TD.mmd>)
-
 # Chi tiết các microservices
 
 ## Auth Service

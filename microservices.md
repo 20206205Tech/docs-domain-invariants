@@ -1,10 +1,8 @@
 # Xây dựng ứng dụng tư vấn pháp luật sử dụng AI
 
-Tất cả các microservices: Ghi lại thông tin request (request logs)
+<!-- Tất cả các microservices: Ghi lại thông tin request (request logs) -->
 
-Tất cả các microservices: có request_id, code, success, message, data, total
-
-# Chi tiết các microservices
+<!-- Tất cả các microservices: có request_id, code, success, message, data, total -->
 
 ## Auth Service
 
@@ -18,12 +16,14 @@ Tất cả các microservices: có request_id, code, success, message, data, tot
 
 <!-- Supabase -->
 
-## Settings Service
+## Setting Service
 
 - Bật tắt dark mode
 - Cấu hình Model mặc định (Cấp 1, 2, 3) về độ chính xác/tốc độ
 - Cài đặt "Bối cảnh cá nhân" (Tự nhập thêm ai prompt)
 - Tự động phát âm thanh khi trả lời
+
+<!-- local storage  -->
 
 ## Token Service
 
@@ -35,3 +35,47 @@ Tất cả các microservices: có request_id, code, success, message, data, tot
 - Đếm thông tin số lượng sử dụng để tạo thống kê như github
 
 <!-- - Thanh toán (payment) (dùng VNPAY sandbox) -->
+
+## Persona Service
+
+- ADMIN CRUD nhân vật
+- Người dùng lựa chọn nhân vật để trò chuyện
+
+## Chat Service
+
+- ADMIN CRUD nhân vật
+- Người dùng lựa chọn nhân vật để trò chuyện
+
+- Giao diện có phần input nhập văn bản
+- Có 1 số câu hỏi gợi ý mặc định
+- Có thể thêm micro giọng nói
+- Sóng âm (waveform animation)
+- Trích xuất các nguồn tài liệu liên quan
+
+- Tải lên file tài liệu văn bản
+
+- Lịch sử cuộc trò chuyện
+
+## Share Service
+
+- Chia sẻ cuộc trò chuyện
+
+## Note Service
+
+- Người dùng có thể thả tim yêu thích cuộc trò chuyện
+- Cho phép người dùng phân loại theo chủ đề (labels)
+
+## Worker Service
+
+- Gửi email chào mừng đăng ký người dùng mới
+
+- Thông báo cho người dùng về thanh toán (sắp hết số lượng, thành công)
+
+- Thông báo cho người dùng dữ liệu văn bản mới (qua mail)
+
+## Chức năng Dashboard của ADMIN
+
+- Tổng số người dùng hệ thống
+- Tổng số người dùng hôm nay
+- Thống kê chi phí API (tiền trả cho OpenAI/Anthropic/Google...).
+- Thống kê doanh thu theo ngày/tháng từ VNPAY.

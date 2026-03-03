@@ -8,7 +8,7 @@ Tất cả các microservices: có request_id, code, success, message, data, tot
 
 ```mermaid
 graph TD
-    ClientApp[Client App - Web/Mobile] --> API_Gateway[API Gateway]
+    Client[Client] --> API_Gateway[API Gateway]
 
     API_Gateway --> IAM[IAM Service]
     API_Gateway --> UserDirectory[User Profile Service]

@@ -1,5 +1,9 @@
 # Xây dựng ứng dụng tư vấn pháp luật sử dụng AI
 
+Tất cả các microservices: Ghi lại thông tin request (request logs)
+
+Tất cả các microservices: trả suscess , meee, data, toltal,.....
+
 Yêu cầu chức năng dự kiến:
 
 <!-- - [ ] Ghi lại thông tin request (request logs) -->

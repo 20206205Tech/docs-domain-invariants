@@ -1,25 +1,9 @@
-# MICROSERVICES 
-Tất cả các microservices: Ghi lại thông tin request (request logs)
-Tất cả các microservices:   trả suscess , meee, data, toltal,.....
-
-
-
- 
-
-
-auth-service 
+auth-service
 Người dùng đăng nhập bằng google
-Gửi email để   xác nhận email 
-Người dùng      xác nhận email 
+Gửi email để xác nhận email
+Người dùng xác nhận email
 Xác thực 2FA bằng TOTP
 Chuyển 1 user thành admin (ADMIN)
-
-
- 
-
-
-
-
 
 <!-- user-profile -->
 <!-- - [ ] Thông tin tài khoản (profile) -->
@@ -27,41 +11,27 @@ Chuyển 1 user thành admin (ADMIN)
 <!-- - [ ] Tải ảnh avatar -->
 <!-- trạng thái như fb messdsenger-->
 
-
-
 <!-- - [ ] Đếm thông tin số lượng sử dụng để tạo thống kê như github -->
 
- 
-
-
-
- 
-
 user-settings
+
 <!-- - [ ] Cài đặt người dùng (user-settings) -->
-<!-- - [ ] Bật tắt dark mode --> 
+<!-- - [ ] Bật tắt dark mode -->
 <!-- - [ ] Cấu hình Modemặc định l (Cấp 1, 2, 3) về độ chính xác/tốc độ -->
 <!-- - [ ] Cài đặt Bối cảnh cá nhân (Tự nhập thêm ai prompt) -->
 <!-- Tự động phát âm thanh khi trả lời -->
 
-
-  
-
-
-
-
 token
+
 - [ ] Thanh toán (payment) (dùng VNPAY sandbox)
   - [ ] Người dùng mua số lượng câu hỏi
   - [ ] Hiển thị các mức giá (mua nhiều được giảm %)
   - [ ] Lịch sử giao dịch
   - [ ] Cửa sổ bật lên thông báo khi hết lượt dùng
 
-
 - [ ] Chức năng nâng cao: Lựa chọn nhân vật để trò chuyện (personas) ?
 
 <!-- - [ ] Chia sẻ link public cuộc trò chuyện (CRUD) -->
-
 
 - [ ] Cuộc trò chuyện (chat)
   - [ ] Giao diện có phần input nhập văn bản

@@ -14,3 +14,13 @@ flowchart TD
 ```
 
 # Chi tiết các microservices
+
+## Auth Service
+
+- Người dùng đăng nhập bằng google
+- Gửi email để xác nhận email
+- Người dùng xác nhận email
+- Xác thực 2FA bằng TOTP
+- Chuyển 1 user thành admin (cần Role ADMIN)
+- Thông tin cá nhân
+- Cập nhật ảnh avatar

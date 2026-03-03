@@ -7,21 +7,10 @@ Tất cả các microservices: có request_id, code, success, message, data, tot
 # Tổng quan các microservices
 
 ```mermaid
-graph TD
-    Client[Client] --> API_Gateway[API Gateway]
+flowchart TD
+    Client[Client] --> Gateway[API Gateway]
 
-    API_Gateway --> IAM[IAM Service]
-    API_Gateway --> UserDirectory[User Profile Service]
-    API_Gateway --> Consultation[Consultation Service]
-    API_Gateway --> Communication[Real-time Comm Service]
-    API_Gateway --> Docs[Document Service]
-    API_Gateway --> Billing[Billing Service]
-
-    Consultation --> AI_Engine[AI & NLP Engine Service]
-    Docs --> AI_Engine
-
-    AI_Engine --> LLMs[(LLM APIs - e.g., Gemini)]
-    AI_Engine --> VectorDB[(Vector DB)]
+    Gateway --> Auth[Auth Service]
 ```
 
 # Chi tiết các microservices

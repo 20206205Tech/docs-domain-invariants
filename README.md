@@ -5,7 +5,7 @@ Yêu cầu chức năng dự kiến:
 - [ ] Ghi lại thông tin request (request logs)
 - [ ] Tải file
   - [ ] Tải ảnh avatar
-  - [ ] Tải tài liệu văn bản
+  - [ ] Tải tài liệu văn bản (NÂNG CAO) ?
 - [ ] Cài đặt hệ thống (admin-settings)
   - [ ] Bắt buộc Xác thực 2FA
   - [ ] Bắt buộc Xác thực email
@@ -36,7 +36,7 @@ Yêu cầu chức năng dự kiến:
   - [ ] Chia sẻ link public cuộc trò chuyện (CRUD)
   - [ ] Đánh giá mức độ hài lòng cuộc trò chuyện
   - [ ] Chức năng nâng cao: Tải lên file văn bản ?
-  - [ ] Chức năng nâng cao: Lựa chọn nhân vật để trò chuyện (roleplays) ?
+  - [ ] Chức năng nâng cao: Lựa chọn nhân vật để trò chuyện (personas) ?
 - [ ] Ghi chú (note)
   - [ ] Người dùng có thể đánh dấu lưu lại cuộc trò chuyện (bookmark)
   - [ ] Cho phép người dùng phân loại theo chủ đề (labels)
@@ -50,16 +50,19 @@ Yêu cầu chức năng dự kiến:
 - Dashboard của admin
   Tổng số người dùng hệ thống
   Tổng số người dùng hôm nay
+  Thống kê chi phí API (tiền trả cho OpenAI/Anthropic/Google...).
+  Thống kê doanh thu theo ngày/tháng từ VNPAY.
+  Dashboard cần có: Nơi Admin có thể xem lại (review) các đoạn chat bị người dùng đánh giá thấp hoặc report (báo cáo) là "AI trả lời sai luật". Từ đó, bạn mới biết được các nhân vật (Luật sư Doanh nghiệp, Trợ lý Gen Z) đang bị lỗi prompt ở đâu để tinh chỉnh lại câu lệnh hệ thống.
 
 <!-- phê duyệt dữ liệu mới -->
 
 <!-- Quay chờ công việc như  notebooklm  -->
 
-<!-- tóm tắt cuộc trò chuyện??? -->
+<!-- tóm tắt cuộc trò chuyện -->
 <!-- moderation : phê duyệt bot tự động thu hồi nếu SAI SAI, -->
 
 <!-- Đa ngôn ngữ (Việt Nam, Có thế người nước ngoài thì sao) -->
 
 <!-- Phân trang cho tất cả -->
 
-<!-- thảo luận, comment??? (Chỉ có 1 người dùng nên khó trao đổi người khác) -->
+<!-- thảo luận, comment (Chỉ có 1 người dùng nên khó trao đổi người khác) -->

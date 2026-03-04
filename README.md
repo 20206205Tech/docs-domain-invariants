@@ -17,7 +17,7 @@ Yêu cầu chức năng dự kiến:
 
 - [ ] Xác thực (auth)
   - [ ] Người dùng đăng nhập bằng google
-    - [ ] Hệ thốngg gửi email để xác nhận
+    - [ ] Hệ thống gửi email để xác nhận
     - [ ] Người dùng xác nhận email
   - [ ] Xem thông tin cá nhân (profile)
     - [ ] Đếm thông tin số lượng sử dụng Token để tạo thống kê như github
@@ -42,7 +42,7 @@ Yêu cầu chức năng dự kiến:
       - [ ] Có 1 số câu hỏi gợi ý mặc định
     - [ ] Có thể thêm micro giọng nói
       - [ ] Sóng âm (waveform animation)
-    - [ ] Tải lên file tài liệu văn bản
+    - [ ] Tải lên file tài liệu văn bản (.pdf)
   - [ ] Đầu ra OUTPUT
     - [ ] Trích xuất các nguồn tài liệu liên quan
     - [ ] Lịch sử cuộc trò chuyện

@@ -4,7 +4,7 @@ Yêu cầu chức năng dự kiến:
 
 - [ ] Ghi lại thông tin request (request logs)
 
-- [ ] Ghi lại thông tin response: : có request_id, code, success, message, data, total
+- [ ] Ghi lại thông tin response: có request_id, code, success, message, data, total
 
 - [ ] Cài đặt người dùng (user-settings)
   - [ ] Bật tắt Dark mode
@@ -12,8 +12,6 @@ Yêu cầu chức năng dự kiến:
   - [ ] Cấu hình Model mặc định (Cấp 1, 2, 3) về độ chính xác/tốc độ
   - [ ] Cài đặt "Bối cảnh cá nhân" (Tự nhập thêm ai prompt)
   - [ ] Bật tắt Xác thực 2FA (có thể thêm sau)
-
-<!-- local storage  -->
 
 - [ ] Xác thực (auth)
   - [ ] Người dùng đăng nhập bằng google
@@ -59,18 +57,5 @@ Yêu cầu chức năng dự kiến:
 - [ ] Chức năng Dashboard của ADMIN
   - [ ] Tổng số người dùng hệ thống
   - [ ] Tổng số người dùng hôm nay
-  - [ ] Thống kê chi phí API (tiền trả cho OpenAI/Anthropic/Google...).
+  - [ ] Thống kê chi phí Token API (tiền trả cho OpenAI/Anthropic/Google...).
   - [ ] Thống kê doanh thu theo ngày/tháng từ VNPAY.
-
-<!-- phê duyệt dữ liệu mới -->
-
-<!-- Quay chờ công việc như  notebooklm  -->
-
-<!-- tóm tắt cuộc trò chuyện -->
-<!-- moderation : phê duyệt bot tự động thu hồi nếu SAI SAI, -->
-
-<!-- Đa ngôn ngữ (Việt Nam, Có thế người nước ngoài thì sao) -->
-
-<!-- Phân trang cho tất cả -->
-
-<!-- thảo luận, comment (Chỉ có 1 người dùng nên khó trao đổi người khác) -->

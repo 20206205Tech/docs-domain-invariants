@@ -23,16 +23,16 @@ Yêu cầu chức năng dự kiến:
   - [ ] ~~Chuyển 1 user thành admin (cần Role ADMIN)~~
   - [ ] ~~Xác thực 2FA bằng TOTP (có thể thêm sau)~~
 
-- [ ] Thanh toán Token (dùng VNPAY sandbox)
-  - [ ] Hiển thị các mức giá ~~(mua nhiều được giảm %)~~
-  - [ ] Người dùng mua số lượng Token
-  - [ ] Lưu lịch sử giao dịch
+- [x] Thanh toán Token (dùng VNPAY sandbox)
+  - [x] Hiển thị các mức giá ~~(mua nhiều được giảm %)~~
+  - [x] Người dùng mua số lượng Token
+  - [x] Lưu lịch sử giao dịch
   - [ ] Mỗi lần chat, hệ thống sẽ tính số lượng token (prompt đầu vào và response đầu ra)
   - [ ] Cửa sổ bật lên thông báo khi hết lượt dùng
 
-- [ ] Lựa chọn nhân vật để trò chuyện
-  - [ ] CRUD nhân vật (cần Role ADMIN)
-  - [ ] Người dùng lựa chọn nhân vật để trò chuyện
+- [x] Lựa chọn nhân vật để trò chuyện
+  - [x] CRUD nhân vật (cần Role ADMIN)
+  - [x] Người dùng lựa chọn nhân vật để trò chuyện
 
 - [ ] Cuộc trò chuyện (chat)
   - [ ] Đầu vào INPUT

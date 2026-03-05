@@ -4,24 +4,24 @@ Yêu cầu chức năng dự kiến:
 
 - [x] Ghi lại thông tin request (request logs)
 
-- ~~[ ] Ghi lại thông tin response: có request_id, code, success, message, data, total~~
+- [ ] ~~Ghi lại thông tin response: có request_id, code, success, message, data, total~~
 
 - [x] Cài đặt người dùng (user-settings)
   - [ ] Bật tắt Dark mode
   - [ ] Bật tắt Tự động phát âm thanh khi trả lời
   - [ ] Cấu hình Model mặc định (Cấp 1, 2, 3) về độ chính xác/tốc độ
   - [ ] Cài đặt "Bối cảnh cá nhân" (Tự nhập thêm ai prompt)
-  - ~~[ ] Bật tắt Xác thực 2FA (có thể thêm sau)~~
+  - [ ] ~~Bật tắt Xác thực 2FA (có thể thêm sau)~~
 
 - [x] Xác thực (auth - dùng supabase)
   - [x] Người dùng đăng nhập bằng google
-    - ~~[ ] Hệ thống gửi email để xác nhận~~
-    - ~~[ ] Người dùng xác nhận email~~
+    - [ ] ~~Hệ thống gửi email để xác nhận~~
+    - [ ] ~~Người dùng xác nhận email~~
   - [x] Xem thông tin cá nhân (profile)
     - [ ] Đếm thông tin số lượng sử dụng Token để tạo thống kê như github
     - [x] Cập nhật ảnh avatar
-  - ~~[ ] Chuyển 1 user thành admin (cần Role ADMIN)~~
-  - ~~[ ] Xác thực 2FA bằng TOTP (có thể thêm sau)~~
+  - [ ] ~~Chuyển 1 user thành admin (cần Role ADMIN)~~
+  - [ ] ~~Xác thực 2FA bằng TOTP (có thể thêm sau)~~
 
 - [ ] Thanh toán Token (dùng VNPAY sandbox)
   - [ ] Hiển thị các mức giá ~~(mua nhiều được giảm %)~~

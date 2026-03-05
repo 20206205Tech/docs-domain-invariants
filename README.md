@@ -2,9 +2,9 @@
 
 Yêu cầu chức năng dự kiến:
 
-- [ ] Ghi lại thông tin request (request logs)
+- [x] Ghi lại thông tin request (request logs)
 
-- [ ] Ghi lại thông tin response: có request_id, code, success, message, data, total
+- ~~[ ] Ghi lại thông tin response: có request_id, code, success, message, data, total~~
 
 - [ ] Cài đặt người dùng (user-settings)
   - [ ] Bật tắt Dark mode
@@ -13,18 +13,18 @@ Yêu cầu chức năng dự kiến:
   - [ ] Cài đặt "Bối cảnh cá nhân" (Tự nhập thêm ai prompt)
   - [ ] Bật tắt Xác thực 2FA (có thể thêm sau)
 
-- [ ] Xác thực (auth - dùng supabase)
-  - [ ] Người dùng đăng nhập bằng google
+- [x] Xác thực (auth - dùng supabase)
+  - [x] Người dùng đăng nhập bằng google
     - ~~[ ] Hệ thống gửi email để xác nhận~~
     - ~~[ ] Người dùng xác nhận email~~
-  - [ ] Xem thông tin cá nhân (profile)
+  - [x] Xem thông tin cá nhân (profile)
     - [ ] Đếm thông tin số lượng sử dụng Token để tạo thống kê như github
-    - [ ] Cập nhật ảnh avatar
+    - [x] Cập nhật ảnh avatar
   - ~~[ ] Chuyển 1 user thành admin (cần Role ADMIN)~~
   - ~~[ ] Xác thực 2FA bằng TOTP (có thể thêm sau)~~
 
 - [ ] Thanh toán Token (dùng VNPAY sandbox)
-  - [ ] Hiển thị các mức giá (mua nhiều được giảm %)
+  - [ ] Hiển thị các mức giá ~~(mua nhiều được giảm %)~~
   - [ ] Người dùng mua số lượng Token
   - [ ] Lưu lịch sử giao dịch
   - [ ] Mỗi lần chat, hệ thống sẽ tính số lượng token (prompt đầu vào và response đầu ra)

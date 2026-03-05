@@ -6,12 +6,12 @@ Yêu cầu chức năng dự kiến:
 
 - ~~[ ] Ghi lại thông tin response: có request_id, code, success, message, data, total~~
 
-- [ ] Cài đặt người dùng (user-settings)
+- [x] Cài đặt người dùng (user-settings)
   - [ ] Bật tắt Dark mode
   - [ ] Bật tắt Tự động phát âm thanh khi trả lời
   - [ ] Cấu hình Model mặc định (Cấp 1, 2, 3) về độ chính xác/tốc độ
   - [ ] Cài đặt "Bối cảnh cá nhân" (Tự nhập thêm ai prompt)
-  - [ ] Bật tắt Xác thực 2FA (có thể thêm sau)
+  - ~~[ ] Bật tắt Xác thực 2FA (có thể thêm sau)~~
 
 - [x] Xác thực (auth - dùng supabase)
   - [x] Người dùng đăng nhập bằng google
